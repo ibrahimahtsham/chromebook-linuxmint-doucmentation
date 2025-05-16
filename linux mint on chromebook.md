@@ -157,11 +157,14 @@ This guide documents my journey converting a **Lenovo 300e Chromebook 2nd Gen** 
    - After the process finished, the installer prompted me to reboot.
 
 7. **Final Reboot and Boot Option:**
-   - Removed the USB drive when prompted.
-   - The system rebooted and initially returned to the OS Verification OFF screen.
-   - I waited until it beeped twice, then the screen went black and displayed “Chrome OS is missing.”
-   - I then rebooted, pressed `Ctrl+L` then 1 then Enter at the boot menu, and selected the default boot option.
-   - The system then successfully booted into Linux Mint.
+   - Turn off the Chromebook and press the power button to start up.
+   - The screen first displays the "OS Verification OFF" message.
+   - Press `Ctrl+L` to select an alternative bootloader.
+   - At the boot menu, press `1` then `Enter`.
+   - The system then shows a coreboot rabbit logo.
+   - When the rabbit logo appears, press `ESC` to continue.
+   - Finally, select the default boot option to start Linux Mint.
+   - The system now boots successfully into Linux Mint.
 
 > **Note:**  
 > I plan to later investigate how to make Linux Mint the default boot option (so I don't have to press `Ctrl+L`/`1` each time).
